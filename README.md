@@ -17,7 +17,7 @@ and `n` server restarts to find the corrupt tribe files, where n is the number o
 ## Usage
 
 1. Backup any save files, as this script will delete the destination folder with every try.
-2. Put your broken files in the `save_files` directory.
+2. Put the contents of your server's `TheIsland_WP` directory in the `save_files` directory (`*.ark`, `*.arktribe`, `*.arkprofile`, etc files).
 3. Download the Ark: Survival Ascended dedicated server package from Steam.
 4. Modify Main.java with the correct paths to your dedicated server installation.
 5. Clear `bad_tribes.txt` and `good_tribes.txt` if needed (this is used to persist and continue a single test run)
