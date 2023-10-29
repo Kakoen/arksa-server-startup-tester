@@ -22,4 +22,4 @@ and `n` server restarts to find the corrupt tribe files, where n is the number o
 4. Modify Main.java with the correct paths to your dedicated server installation.
 5. Clear `bad_tribes.txt` and `good_tribes.txt` if needed (this is used to persist and continue a single test run)
 6. Run the script. It will start the server with all tribes, and then narrow down to the corrupt ones. It will print the corrupt tribes in the end, as well as output them in  bad_tribes.txt` file.
-7. Remove the arktribe files that are reported as bad.
+7. Remove the arktribe files that are reported as bad, and verify that your server starts up without those files again! :)
