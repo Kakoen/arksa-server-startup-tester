@@ -87,6 +87,8 @@ public class Main {
                         log.info("No more tribes to test!");
                         log.info("Bad tribes: {}", badTribes);
                         return;
+                    } else {
+                        tribeFiles = new ArrayList<>(tribeFilesStack.pop());
                     }
                 } else {
                     //remove half of the tribes and put them on the stack
