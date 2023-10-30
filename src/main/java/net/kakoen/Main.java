@@ -64,7 +64,7 @@ public class Main {
             log.info("Good tribes {}", goodTribes);
             log.info("Bad tribes {}", badTribes);
             log.info("Stack {}", tribeFilesStack.size());
-            Process process = new ProcessBuilder(SERVER_BINARY.getAbsolutePath(), "TheIsland_WP?listen", "-UseBattlEye").directory(SERVER_BINARY).start();
+            Process process = new ProcessBuilder(SERVER_BINARY.getAbsolutePath(), "TheIsland_WP?listen", "-UseBattlEye").directory(SERVER_BINARY.getParentFile()).start();
             Instant startDate = Instant.now();
             boolean saveWorks = false;
             while(process.isAlive()) {
